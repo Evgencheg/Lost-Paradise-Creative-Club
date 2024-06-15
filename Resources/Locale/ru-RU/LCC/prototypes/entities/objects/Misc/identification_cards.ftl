@@ -1,0 +1,12 @@
+ent-LPPVirologistIDCard = ID карта вирусолога
+    .desc = { ent-IDCardStandard.desc }
+ent-SeniorEngineerIDCard = ID карта ведущего инженера
+    .desc = { ent-IDCardStandard.desc }
+ent-SeniorResearcherIDCard = ID карта ведущего учёного
+    .desc = { ent-IDCardStandard.desc }
+ent-SeniorPhysicianIDCard = ID карта ведущего врача
+    .desc = { ent-IDCardStandard.desc }
+ent-SeniorOfficerIDCard = ID карта инструктора СБ
+    .desc = { ent-IDCardStandard.desc }
+ent-LPPSecurityEnginerIDCard = ID карта бригтехника
+    .desc = { ent-IDCardStandard.desc }

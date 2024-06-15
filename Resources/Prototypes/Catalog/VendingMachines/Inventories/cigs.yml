@@ -1,0 +1,32 @@
+- type: vendingMachineInventory
+  id: CigaretteMachineInventory
+  startingInventory:
+    LPPCigAstra : 3
+    LPPCigBaltic: 3
+    LPPCigBlueLady: 3
+    LPPCigBlueSky: 3
+    LPPCigCosmos: 3
+    LPPCigCriticalLuck: 3
+    LPPCigDromedarCrush: 3
+    LPPCigGentlemanofluck: 3
+    LPPCigLandtag : 3
+    LPPCigLibertyspirit: 3
+    LPPCigMarbrolo: 3
+    LPPCigMaximus: 3
+    LPPCigWinchester: 3
+    LPPCigDromedar: 3
+    #CigPackGreen: 2
+    #CigPackRed: 2
+    #CigPackBlue: 2
+    #CigPackBlack: 2
+    #CigPackMixed: 2
+    CigarCase: 1
+    SmokingPipeFilledTobacco: 1
+    Vape: 1
+    Matchbox: 5
+    PackPaperRollingFilters: 3
+    CheapLighter: 4
+    Lighter: 2
+    FlippoLighter: 2
+  emaggedInventory:
+    CigPackSyndicate: 1

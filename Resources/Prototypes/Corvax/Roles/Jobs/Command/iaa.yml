@@ -1,0 +1,47 @@
+- type: job
+  id: IAA
+  name: job-name-iaa
+  playTimeTracker: JobIAA
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 72000
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 36000
+  startingGear: IAAGear
+  icon: "JobIconIAA"
+  supervisors: job-supervisors-mag-centcom
+  canBeAntag: false
+  access:
+  - Service
+  - Brig
+  - Maintenance
+  - Command
+  - External
+  - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: IAAGear
+  equipment:
+    jumpsuit: LPPIAASuite
+    back: ClothingBackpackIAAFilled
+    shoes: LPPWhiteShoes
+    id: IAAPDA
+    eyes: LPPAVDEyeshud
+    gloves: ClothingHandsGlovesColorBlack
+    ears: ClothingHeadsetIAA
+    neck: ClothingNeckLawyerbadge
+    socks: LPPClothingUnderSocksNormGreen
+    underwear: LPPBriefsGreen
+  underwear: LPPBoxerGreen
+  breast: LPPBraAltGreen
+  innerClothingSkirt: LPPIAASuite
+  satchel: ClothingBackpackSatchelIAAFilled
+  duffelbag: ClothingBackpackDuffelIAAFilled
+  inhand:
+    - BriefcaseIAAFilled
+

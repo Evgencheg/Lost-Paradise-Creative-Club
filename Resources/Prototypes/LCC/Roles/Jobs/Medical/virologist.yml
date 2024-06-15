@@ -1,0 +1,41 @@
+
+- type: job
+  id: LPPVirologist
+  name: lpp-job-name-virologist
+  description: lpp-job-description-virologist
+  playTimeTracker: JobLPPVirologist
+  requirements:
+      - !type:RoleTimeRequirement
+        role: JobChemist
+        time: 18000
+      - !type:DepartmentTimeRequirement
+        department: Medical
+        time: 36000
+  startingGear: LPPVirologistGear
+  icon: "JobIconVirologist"
+  supervisors: job-supervisors-cmo
+  canBeAntag: true
+  access:
+    - Medical
+    - Chemistry
+    - Maintenance
+    - External
+
+
+- type: startingGear
+  id: LPPVirologistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitVirology
+    back: LPPClothingBackpackVirologyFilled
+    shoes: ClothingShoesColorWhite
+    gloves: ClothingHandsGlovesNitrile
+    id: LPPVirologistPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+    socks: LPPClothingUnderSocksNormTeal
+    underwear: LPPBoxerTeal
+  underwear: LPPBriefsTeal
+  breast: LPPBraAltTeal
+  innerClothingSkirt: ClothingUniformJumpskirtVirology
+  satchel: LPPClothingBackpackSatchelVirologyFilled
+  duffelbag: LPPClothingBackpackDuffelVirologyFilled

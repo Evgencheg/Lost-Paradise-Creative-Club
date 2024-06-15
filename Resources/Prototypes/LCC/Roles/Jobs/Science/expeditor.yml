@@ -1,0 +1,50 @@
+- type: job
+  id: Expeditor
+  name: job-name-expeditor
+  description: job-description-expeditor
+  playTimeTracker: JobExpeditor
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 36000 #10 hrs
+    - !type:RoleTimeRequirement
+      role: JobSalvageSpecialist
+      time: 36000 # 10 hrs
+  startingGear: ExpeditorGear
+  icon: "JobIconExpeditor"
+  overrideConsoleVisibility: true
+  supervisors: job-supervisors-rd
+  access:
+  - Research
+  - Maintenance
+  - Gateway
+  - EVA
+
+- type: startingGear
+  id: ExpeditorGear
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitExpeditor
+    back: LPPClothingBackpackExpeditorFilled
+    shoes: ClothingShoesBootsCombat
+    outerClothing: LPPExpeditorCoat
+    id: LPPExpeditorPDA
+    ears: ClothingHeadsetScience
+    hands: ClothingHandsGlovesCombat
+    socks: LPPClothingUnderSocksNormBlack
+    underwear: LPPBoxerBlack
+  underwear: LPPBriefsBlack
+  breast: LPPBraAltBlack
+  satchel: LPPClothingBackpackSatchelExpeditorFilled
+  duffelbag: LPPClothingBackpackDuffelExpeditorFilled
+
+- type: entity
+  id: SpawnExpeditor
+  parent: SpawnPointJobBase
+  name: Expeditor
+  components:
+    - type: SpawnPoint
+      job_id: Expeditor
+    - type: Sprite
+      layers:
+        - state: green
+        - state: expeditor

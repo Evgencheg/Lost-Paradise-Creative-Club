@@ -1,0 +1,55 @@
+- type: job
+  id: Magistrate
+  name: job-name-magistrate
+  description: job-description-magistrate
+  playTimeTracker: JobMagistrate
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 54000
+    - !type:RoleTimeRequirement
+      role: JobHeadOfSecurity
+      time: 36000
+    - !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 36000
+    - !type:RoleTimeRequirement
+      role: JobIAA
+      time: 54000
+  startingGear: MagistrateGear
+  icon: "JobIconMagistrate"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Command
+    - Brig
+    - Maintenance
+    - Service
+    - Security
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: MagistrateGear
+  equipment:
+    jumpsuit: LPPMagistrateUniform
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsLaceup
+    outerClothing: ClothingOuterRobesJudge
+    eyes: LPPMagistrateEyeshud
+    id: MagistratePDA
+    gloves: ClothingHandsGlovesColorBlack
+    ears: ClothingHeadsetMagistrate
+    neck: ClothingNeckLawyerbadge
+    pocket1: RubberStampMagistrate
+    pocket2: LPPJudgesGavel
+    socks: LPPClothingUnderSocksNormGreen
+    underwear: LPPBoxerGreen
+  underwear: LPPBriefsGreen
+  breast: LPPBraAltGreen
+  innerClothingSkirt: ClothingUniformJumpsuitLawyerBlack
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel

@@ -1,0 +1,47 @@
+- type: job
+  id: Roboticist
+  name: job-name-roboticist
+  description: job-description-roboticist
+  playTimeTracker: JobRoboticist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 36000 #10 hrs
+  startingGear: RoboticistGear
+  icon: "JobIconRoboticist"
+  supervisors: job-supervisors-rd
+  access:
+  - Research
+  - Robotics
+  - Maintenance
+
+- type: startingGear
+  id: RoboticistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitRoboticist
+    back: ClothingBackpackRoboticsFilled
+    shoes: ClothingShoesColorBlack
+    outerClothing: ClothingOuterCoatRobo
+    id: RoboticsPDA
+    ears: ClothingHeadsetRobotics
+    eyes: ClothingEyesHudDiagnostic
+    belt: ClothingBeltUtilityEngineering
+    socks: LPPClothingUnderSocksNormLightpurple
+    underwear: LPPBoxerLightpurple
+  underwear: LPPBriefsLightpurple
+  breast: LPPBraAltLightpurple
+  innerClothingSkirt: ClothingUniformJumpskirtRoboticist
+  satchel: ClothingBackpackSatchelRoboticsFilled
+  duffelbag: ClothingBackpackDuffelRoboticsFilled
+
+- type: entity
+  id: SpawnRoboticist
+  parent: SpawnPointJobBase
+  name: Roboticist
+  components:
+    - type: SpawnPoint
+      job_id: Roboticist
+    - type: Sprite
+      layers:
+        - state: green
+        - state: roboticist

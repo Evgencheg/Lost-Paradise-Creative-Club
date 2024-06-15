@@ -1,0 +1,14 @@
+- type: soundCollection
+  id: LPPArmorA
+  files:
+  - /Audio/LCC/ArmorMovement/armor_a1.ogg
+  - /Audio/LCC/ArmorMovement/armor_a2.ogg
+  - /Audio/LCC/ArmorMovement/armor_a3.ogg
+  - /Audio/LCC/ArmorMovement/armor_a4.ogg
+
+- type: soundCollection
+  id: LPPAimePui
+  files:
+  - /Audio/LCC/Objects/Fun/Anime/pui_anime1.ogg
+  - /Audio/LCC/Objects/Fun/Anime/pui_anime2.ogg
+  - /Audio/LCC/Objects/Fun/Anime/pui_anime3.ogg

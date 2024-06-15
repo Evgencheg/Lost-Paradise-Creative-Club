@@ -1,0 +1,87 @@
+- type: job
+  id: SecPilot
+  name: job-name-secpilot
+  description: job-description-secpilot
+  playTimeTracker: JobSecPilot
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 72000 # 20 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 108000 # 30 hrs
+  startingGear: SecPilotGear
+  icon: "JobIconSecPilot"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Armory
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SecPilotGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSec
+    back: ClothingBackpackSecurityFilled
+    shoes: ClothingShoesBootsJackSec # Corvax-Resprite
+    eyes: LPPRedHudGlasses
+    head: ClothingHeadHatBeretSecurity
+    outerClothing: ClothingOuterWinterSec
+    id: SecPilotPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58
+    socks: LPPClothingUnderSocksNormRed
+    underwear: LPPBoxerRed
+  underwear: LPPBriefsRed
+  breast: LPPBraAltRed
+  innerClothingSkirt: ClothingUniformJumpskirtSeniorOfficer
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled
+
+- type: entity
+  id: SpawnSecPilot
+  parent: SpawnPointJobBase
+  name: sec pilot spawn
+  components:
+    - type: SpawnPoint
+      job_id: SecPilot
+    - type: Sprite
+      layers:
+        - state: green
+        - state: cluwne
+
+- type: entity
+  parent: BasePDA
+  id: SecPilotPDA
+  name: security pilot PDA
+  description: Beaten, battered and broken, but just barely useable.
+  components:
+  - type: Pda
+    id: SecPilotIDCard
+    state: pda-seniorofficer
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentVColor: "#DFDFDF"
+  - type: Icon
+    state: pda-seniorofficer
+
+- type: entity
+  parent: IDCardStandard
+  id: SecPilotIDCard
+  name: security pilot ID card
+  description: magistrate ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idseniorofficer
+    - type: PresetIdCard
+      job: SecPilot

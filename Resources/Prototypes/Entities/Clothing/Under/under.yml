@@ -1,0 +1,38 @@
+# These are technically shoes for now, as we don't actually have underwear. But
+# I would cry if we didn't have them. -swept
+
+- type: entity
+  # parent: LPPClothingUnderwearSocksBase
+  id: ClothingUnderSocksBee
+  name: bee socks
+  description: Make them loins buzz!
+  components:
+  - type: Sprite
+    sprite: Clothing/Under/Socks/bee.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Under/Socks/bee.rsi
+    slots: [socks]
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+      - socks
+
+- type: entity
+  # parent: LPPClothingUnderwearSocksBase
+  id: ClothingUnderSocksCoder
+  name: coder socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: Clothing/Under/Socks/coder.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Under/Socks/coder.rsi
+    slots: [socks]
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+      - socks

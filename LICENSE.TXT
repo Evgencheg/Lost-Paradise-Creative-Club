@@ -1,0 +1,32 @@
+Upon receiving a copy of the license object through any means, 
+any individual may use it after accepting and agreeing to all the terms of this license. 
+Any violation of the license terms grants us (the Licensor) the right to enforce legal and technological protective measures using the DMCA and/or
+other legislation of the states where hosting providers and other information intermediaries are located, and who provide services to those violating the terms of this license. 
+Acceptance of the terms of this license constitutes a definitive agreement between you and Flybik, 
+and grants a simple non-exclusive license, hereinafter referred to as the "Agreement." The Agreement does not cover provisions related to the processing of personal data.
+
+A "build" constitutes an Agreement, a result of the original author's work and a team of authors, 
+hereinafter referred to as a complex intellectual property object – a video game, which includes, but is not limited to, source and object code,
+tools, game assets, specifications, UI/UX design, elements of narrative,
+and other creative elements based on the adaptation and translation into Russian of the open version
+of Space Station 14 and the artistic vision of the authors. A build is comprised of a set of individual elements.
+Any elements apart from the original ones are subject to copyright and/or related rights, created through the collective creative work.
+A "contribution" refers to any original author's work of contributors, including any modifications or additions to the build (such as source code, object code, corrections, tools, samples, graphics, assets, specifications, manuals, and documentation), that are intentionally provided from the Licensee to the Licensor. For the purpose of this definition, submission refers to any form of electronic, oral, or written communication sent to the Licensor or its representatives, including, but not limited to, messages on electronic mailing lists, source code control systems, and issue tracking systems operated by or on behalf of the company for the purpose of discussing or improving software, or project documentation and content. Communications explicitly stated in writing as "Not a contribution" will not be considered as a contribution. When providing a contribution to the build, the Contributor grants the Company a simple, free, irrevocable, non-exclusive license for the entire duration of the Contributor's rights to the contribution as provided by the legislation of the state-jurisdiction of the Contributor and/or international legislation for certain forms of contribution.
+The scope of the rights granted. Licensor – Flybik. Authorized representative of the Licensor on the issue of granting 
+permits, legal and technical issues – Daniil Ermolov (lfybbk2222@gmail.com).
+
+
+The license allows an unlimited number of individuals to copy and make 
+modifications solely for the purpose of improving the game, and subject to the further transfer of such modifications to Flybik 
+under the terms of the Contribution, as well as for non-public hosting and launching
+of the Build on the Licensee's computer for non-commercial use for its intended purpose (providing access to Players and the Game process).
+It should be noted that this license explicitly prohibits commercial use, public hosting, as well as non-licensed use. 
+Any usage of the Build or its elements in contravention of the terms of this
+License grants the Licensor the right to contact the hosting provider and other individuals acting as information intermediaries to block hosting.
+The Licensee is only permitted to conduct public hosting of the Build if direct permission is obtained from the Licensor.
+
+
+The components of the Build, including graphics, sounds, and source code, may be subject to an alternative license, distinct from the current one.
+The majority of assets are governed by the CC BY-NC-ND 4.0 license, unless a different designation is provided.
+Each asset possesses its own license and copyright detailed in the metadata file.
+In cases where the license type is unspecified, such files are distributed in accordance with the terms of the present license.

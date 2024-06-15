@@ -1,0 +1,12 @@
+ent-BaseFlag = { ent-BaseSign }
+    .desc = { ent-BaseSign.desc }
+ent-BlankFlag = blank flag
+    .desc = Some piece of white cloth.
+ent-NTFlag = Nanotrasen flag
+    .desc = Glory to NT! Wait, they really made a flag for a corporation?
+ent-SyndieFlag = Syndicate flag
+    .desc = Smells bloody. Death to NT!
+ent-LGBTQFlag = blank flag
+    .desc = Some piece of white cloth.
+ent-PirateFlag = Pirate flag
+    .desc = Raise the jolly roger, scallywags!
