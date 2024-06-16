@@ -7,9 +7,10 @@
   description: A cute stuffed toy that resembles an iterator. Its face looks kind.
   components:
   - type: Sprite
+    sprite: LCC/Objects/Fun/toys.rsi
     state: moon
   - type: Item
-    sprite: Objects/Fun/toys.rsi
+    sprite: LCC/Objects/Fun/toys.rsi
     heldPrefix: moon
   - type: EmitSoundOnUse
     sound:
@@ -39,9 +40,10 @@
   description: A cute stuffed toy that resembles an iterator. Its face looks annoyed.
   components:
   - type: Sprite
+    sprite: LCC/Objects/Fun/toys.rsi
     state: pebbles
   - type: Item
-    sprite: Objects/Fun/toys.rsi
+    sprite: LCC/Objects/Fun/toys.rsi
     heldPrefix: pebbles
   - type: EmitSoundOnUse
     sound:
