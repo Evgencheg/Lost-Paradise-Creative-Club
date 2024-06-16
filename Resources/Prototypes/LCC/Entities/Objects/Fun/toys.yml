@@ -2,7 +2,7 @@
 
 - type: entity
   parent: BasePlushie
-  id: LPPPlushieMoon
+  id: LCCPlushieMoon
   name: big sis moon plushie
   description: A cute stuffed toy that resembles an iterator. Its face looks kind.
   components:
@@ -35,7 +35,7 @@
       
 - type: entity
   parent: BasePlushie
-  id: LPPPlushiePebbles
+  id: LCCPlushiePebbles
   name: five pebbles plushie
   description: A cute stuffed toy that resembles an iterator. Its face looks annoyed.
   components:
