@@ -55,11 +55,11 @@
       types:
         Blunt: 15
     openSound:
-      path: /Audio/LCC/Machines/airlock_open.ogg
+      path: /Audio/LPP/Machines/airlock_open.ogg
     closeSound:
-      path: /Audio/LCC/Machines/airlock_close.ogg
+      path: /Audio/LPP/Machines/airlock_close.ogg
     denySound:
-      path: /Audio/LCC/Machines/airlock_deny.ogg
+      path: /Audio/LPP/Machines/airlock_deny.ogg
   - type: ContainerContainer
     containers:
       board: !type:Container

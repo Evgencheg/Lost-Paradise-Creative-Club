@@ -141,7 +141,7 @@
     corePrototype: AnomalyCoreElectricity
     coreInertPrototype: AnomalyCoreElectricityInert
   - type: Sprite
-    sprite: LCC/Structures/Specific/anomaly.rsi
+    sprite: LPP/Structures/Specific/anomaly.rsi
     layers:
     - state: anom3
       scale: 0.40, 0.40

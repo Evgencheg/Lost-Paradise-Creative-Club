@@ -12,20 +12,20 @@
 
 # - type: lobbyBackground
 #   id: Borman
-#   background: /Textures/LCC/LobbyScreens/borman.png
+#   background: /Textures/LPP/LobbyScreens/borman.png
 #
 # - type: lobbyBackground
 #   id: Teftelka
-#   background: /Textures/LCC/LobbyScreens/teftelka.png
+#   background: /Textures/LPP/LobbyScreens/teftelka.png
 #
 # - type: lobbyBackground
 #   id: Penisher
-#   background: /Textures/LCC/LobbyScreens/penisher.png
+#   background: /Textures/LPP/LobbyScreens/penisher.png
 #
 # - type: lobbyBackground
 #   id: Amina
-#   background: /Textures/LCC/LobbyScreens/amina.png
+#   background: /Textures/LPP/LobbyScreens/amina.png
 #
 # - type: lobbyBackground
 #   id: Bigmoon
-#   background: /Textures/LCC/LobbyScreens/bigmoon.png
+#   background: /Textures/LPP/LobbyScreens/bigmoon.png

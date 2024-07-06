@@ -575,7 +575,7 @@
   - type: CommunicationsConsole
     title: comms-console-announcement-title-station
     global: true
-    sound: /Audio/LCC/Announcement/department.ogg
+    sound: /Audio/LPP/Announcement/department.ogg
   - type: DeviceNetwork
     transmitFrequencyId: ShuttleTimer
   - type: ActivatableUI

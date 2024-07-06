@@ -35,10 +35,10 @@
   components:
   - type: MagnetPickup
   - type: Sprite
-    sprite: LCC/Objects/Specific/Mining/ore_bag_bluespace.rsi
+    sprite: LPP/Objects/Specific/Mining/ore_bag_bluespace.rsi
     state: icon
   - type: Clothing
-    sprite: LCC/Objects/Specific/Mining/ore_bag_bluespace.rsi
+    sprite: LPP/Objects/Specific/Mining/ore_bag_bluespace.rsi
     quickEquip: false
     slots:
     - belt

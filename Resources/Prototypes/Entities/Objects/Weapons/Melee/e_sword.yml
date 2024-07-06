@@ -6,7 +6,7 @@
   components:
   # - type: BlockMeleeAttack
     # blockSound:
-      # path: /Audio/LCC/Misc/reflect.ogg
+      # path: /Audio/LPP/Misc/reflect.ogg
   - type: EnergySword
   - type: ItemToggle
     soundActivate:

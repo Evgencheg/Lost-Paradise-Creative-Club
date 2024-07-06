@@ -212,7 +212,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: LCC/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: LPP/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: ion
       shader: unshaded
@@ -238,7 +238,7 @@
         Heat: 12
         Radiation: 3
     soundHit:
-       path: "/Audio/LCC/Weapons/Guns/Gunshots/ion_hit_1.ogg"
+       path: "/Audio/LPP/Weapons/Guns/Gunshots/ion_hit_1.ogg"
     soundForce: true
 
 # Bullet Ion 2
@@ -257,7 +257,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: LCC/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: LPP/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: ion
       shader: unshaded
@@ -283,7 +283,7 @@
         Heat: 25
         Radiation: 4
     soundHit:
-       path: "/Audio/LCC/Weapons/Guns/Gunshots/ion_hit_1.ogg"
+       path: "/Audio/LPP/Weapons/Guns/Gunshots/ion_hit_1.ogg"
     soundForce: true
 
 # Bullet Ion 3
@@ -302,7 +302,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: LCC/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: LPP/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: ion
       shader: unshaded
@@ -328,7 +328,7 @@
         Heat: 18
         Radiation: 10
     soundHit:
-       path: "/Audio/LCC/Weapons/Guns/Gunshots/ion_hit_1.ogg"
+       path: "/Audio/LPP/Weapons/Guns/Gunshots/ion_hit_1.ogg"
     soundForce: true
 
 - type: entity
@@ -1227,7 +1227,7 @@
         Heat: 5
         Slash: 9
     soundHit:
-      path: "/Audio/LCC/Weapons/Guns/Gunshots/ion/ion_hit_1.ogg"
+      path: "/Audio/LPP/Weapons/Guns/Gunshots/ion/ion_hit_1.ogg"
     soundForce: true
   - type: TimedDespawn
     lifetime: 0.4

@@ -5,7 +5,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/LCC/Voice/Tajaran/tajarahiss.ogg
+      path: /Audio/LPP/Voice/Tajaran/tajarahiss.ogg
     Laugh:
       collection: MaleLaugh
     Sneeze:
@@ -40,7 +40,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/LCC/Voice/Tajaran/tajarahiss.ogg
+      path: /Audio/LPP/Voice/Tajaran/tajarahiss.ogg
     Laugh:
       collection: FemaleLaugh
     Sneeze:
@@ -75,7 +75,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/LCC/Voice/Vulpkanin/howl.ogg
+      path: /Audio/LPP/Voice/Vulpkanin/howl.ogg
     Laugh:
       collection: MaleLaugh
     Sneeze:
@@ -110,7 +110,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/LCC/Voice/Vulpkanin/howl.ogg
+      path: /Audio/LPP/Voice/Vulpkanin/howl.ogg
     Laugh:
       collection: FemaleLaugh
     Sneeze:

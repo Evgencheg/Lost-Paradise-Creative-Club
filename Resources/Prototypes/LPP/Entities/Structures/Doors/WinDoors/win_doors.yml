@@ -1,0 +1,151 @@
+- type: entity
+  id: BaseTitaniumWindoor
+  parent: BaseWindoor
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: LPP/Structures/Doors/Windoors/windoor.rsi
+    layers:
+    - state: closed
+      map: [ "enum.DoorVisualLayers.Base" ]
+    - state: closed_unlit
+      shader: unshaded
+      map: [ "enum.DoorVisualLayers.BaseUnlit" ]
+    - state: welded
+      map: [ "enum.WeldableLayers.BaseWelded" ]
+    - state: bolted_unlit
+      shader: unshaded
+      map: [ "enum.DoorVisualLayers.BaseBolted" ]
+    - state: emergency_unlit
+      shader: unshaded
+      map: [ "enum.DoorVisualLayers.BaseEmergencyAccess" ]
+    - state: panel_open
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      visible: false
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 1
+            max: 2
+          SheetPlasteel1:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: StaticPrice
+    price: 200
+
+#------код------#
+- type: entity
+  id: TitaniumWindoor
+  parent: BaseTitaniumWindoor
+  name: titanium windoor
+  description: It's a window and a sliding door. Wow!
+
+#------должности------#
+
+#------Главы------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorCaptainSynLocked
+  suffix: CaptainSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["CaptainSyn"]]
+
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorHeadOfPersonnelSynLocked
+  suffix: HeadOfPersonnelSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfPersonnelSyn"]]
+
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorHeadOfSecuritySynLocked
+  suffix: HeadOfSecuritySyn, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfSecuritySyn"]]
+
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorCommandSyndicateLocked
+  suffix: CommandSyndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["CommandSyndicate"]]
+#-----------------#
+
+#------Инженерия------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+#-----------------#
+
+#------МедБлок------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorMedicalSynLocked
+  suffix: MedicalSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["MedicalSyn"]]
+#-----------------#
+
+#------Cлужбы-Безопасности------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorSecuritySynLocked
+  suffix: SecuritySyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SecuritySyn"]]
+#-----------------#
+
+#------Научный-отдел------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorResearchSynLocked
+  suffix: ResearchSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ResearchSyn"]]
+#-----------------#
+
+#------Сервис------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorServiceSynLocked
+  suffix: ServiceSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ServiceSyn"]]
+#-----------------#
+
+#------КАРГО------#
+- type: entity
+  parent: TitaniumWindoor
+  id: TitaniumWindoorSalvageSynLocked
+  suffix: SalvageSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SalvageSyn"]]
+#-----------------#
