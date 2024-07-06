@@ -131,7 +131,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: LPPHardsuitAssaultParamedic
       - id: ClothingOuterCoatParamedicWB
       - id: ClothingHeadHatParamedicsoft
       - id: ClothingOuterWinterPara
@@ -141,7 +140,6 @@
       - id: ClothingHandsGlovesLatex
       - id: ClothingHeadsetMedical
       - id: ClothingMaskSterile
-      - id: LPPClothingShoesBootsMagParamed
       - id: HandheldGPSBasic
       - id: MedkitFilled
         prob: 0.3
