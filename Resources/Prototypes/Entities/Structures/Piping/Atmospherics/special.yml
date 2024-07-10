@@ -26,5 +26,5 @@
     tags:
       - SpreaderIgnore
   - type: Construction
-    graph: AtmosDeviceFanTinyBild
+    graph: AtmosDeviceFanTiny
     node: AtmosDeviceFanTiny

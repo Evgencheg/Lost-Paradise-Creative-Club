@@ -83,7 +83,7 @@
   abstract: true
   components:
     - type: StationCentcomm
-      map: "/Maps/LPP/paradise_centcomm.yml" # LPP-Mapping
+      map: "/Maps/centcomm.yml" # LPP-Mapping
 
 - type: entity
   id: BaseStationEvacuation
