@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackBrigmedic
-  name: brigmedic backpack
+  name: field medic backpack
   description: It's a very sterile backpack.
   components:
   - type: Sprite

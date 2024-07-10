@@ -437,7 +437,7 @@
 - type: entity
   parent: IDCardStandard
   id: BrigmedicIDCard
-  name: brigmedic ID card
+  name: field medic ID card
   components:
   - type: Sprite
     layers:
