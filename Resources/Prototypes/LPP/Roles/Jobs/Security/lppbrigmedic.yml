@@ -28,10 +28,10 @@
   id: BrigmedicGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitBrigmedic
-    outerClothing: LPPClothingOuterCoatLabSec #ClothingOuterVestArmorMedSec # Corvax-Resprite
+    outerClothing: LCCClothingOuterCoatBrigmed #LPPClothingOuterCoatLabSec #ClothingOuterVestArmorMedSec # Corvax-Resprite
     back: ClothingBackpackBrigmedicFilled
     shoes: ClothingShoesBootsJackSec # Corvax-Resprite
-    #gloves: ClothingHandsGlovesNitrile
+    gloves: ClothingHandsGlovesNitrile
     eyes: LPPBlueHudGlasses
     #head: ClothingHeadHatBeretSecurityMedic # Corvax-Resprite
     id: BrigmedicPDA
@@ -40,11 +40,14 @@
     belt: ClothingBeltMedicalFilled
     socks: LPPClothingUnderSocksNormRed
     underwear: LPPBoxerRed
+    pocket1: WeaponPistolMk58
+    pocket2: MagazinePistol
   underwear: LPPBriefsRed
   breast: LPPBraAltRed
   innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
   satchel: ClothingBackpackSatchelBrigmedicFilled
   duffelbag: ClothingBackpackDuffelBrigmedicFilled
+  
 
 - type: entity
   noSpawn: true
