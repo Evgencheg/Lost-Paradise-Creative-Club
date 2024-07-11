@@ -168,7 +168,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBrigmedic
-  name: brigmedic hardsuit helmet
+  name: field medic hardsuit helmet
   noSpawn: true
   description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
   components:

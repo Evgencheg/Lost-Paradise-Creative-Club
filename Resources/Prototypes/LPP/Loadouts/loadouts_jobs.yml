@@ -1,0 +1,26 @@
+- type: loadoutGroup
+  id: LPPBrigmedicOuterClothing
+  name: loadout-group-brigmedic-outerclothing
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - LCCClothingOuterCoatBrigmed
+  - LPPClothingOuterCoatLabSec
+
+- type: loadout
+  id: LCCClothingOuterCoatBrigmed
+  equipment: LCCClothingOuterCoatBrigmed
+
+- type: startingGear
+  id: LCCClothingOuterCoatBrigmed
+  equipment:
+    outerClothing: LCCClothingOuterCoatBrigmed
+
+- type: loadout
+  id: LPPClothingOuterCoatLabSec
+  equipment: LPPClothingOuterCoatLabSec
+
+- type: startingGear
+  id: LPPClothingOuterCoatLabSec
+  equipment:
+    outerClothing: LPPClothingOuterCoatLabSec

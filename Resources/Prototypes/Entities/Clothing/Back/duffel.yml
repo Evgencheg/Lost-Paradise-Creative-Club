@@ -75,7 +75,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelBrigmedic
-  name: brigmedic duffel bag
+  name: field medic duffel bag
   description: A large duffel bag for holding extra medical related goods.
   components:
   - type: Sprite
