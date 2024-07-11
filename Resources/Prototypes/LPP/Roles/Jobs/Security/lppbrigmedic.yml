@@ -36,7 +36,7 @@
     #head: ClothingHeadHatBeretSecurityMedic # Corvax-Resprite
     id: BrigmedicPDA
     ears: ClothingHeadsetBrigmedic
-    #mask: ClothingMaskBreathMedicalSecurity
+    #mask: LCCClothingMaskGasBrigmedic # moved to brigmed's locker
     belt: ClothingBeltMedicalFilled
     socks: LPPClothingUnderSocksNormRed
     underwear: LPPBoxerRed
