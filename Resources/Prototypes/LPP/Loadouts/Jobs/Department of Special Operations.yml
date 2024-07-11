@@ -1,0 +1,341 @@
+- type: startingGear
+  id: LPPERTSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: ClothingBackpackERTSecurity
+    head: ClothingHeadHatBeretSecurity
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: ERTSecurityPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltSecurityFilled
+
+- type: startingGear
+  id: LPPERTEngineerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    back: ClothingBackpackERTEngineer
+    head: ClothingHeadHatBeretEngineering
+    shoes: ClothingShoesBootsCombat
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: ERTEngineerPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltUtilityEngineering
+
+- type: startingGear
+  id: LPPERTMedicGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    back: ClothingBackpackERTMedical
+    head: ClothingHeadHatBeretBrigmedic
+    shoes: ClothingShoesBootsCombat
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: ERTMedicPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltMedicalEMTFilled
+
+- type: startingGear
+  id: LPPERTJanitorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTJanitor
+    back: ClothingBackpackERTJanitor
+    head: ClothingHeadHatBeretRND
+    shoes: ClothingShoesBootsCombat
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: ERTJanitorPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltJanitorFilled
+
+- type: startingGear
+  id: LPPERTLeaderGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeader
+    head: ClothingHeadHatERTLeaderBeret
+    neck: ClothingNeckMantleERTLeader
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: ERTLeaderPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponPistolMk58
+    pocket1: LPPERTUplinkShop
+
+- type: startingGear
+  id: LPPCBURNAgentGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorDarkGreen
+    back: ClothingBackpackDuffelVirology
+    head: ClothingHeadHatBeretCentcomNaval
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: CBURNPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltSecurityFilled
+
+- type: startingGear
+  id: LPPCBURNBiologistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorDarkGreen
+    back: ClothingBackpackDuffelVirology
+    head: ClothingHeadHatBeretCentcomNaval
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: CBURNPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltMedicalEMTFilled
+
+- type: startingGear
+  id: LPPCBURNCommanderGear
+  equipment:
+    jumpsuit: LPPUtilVirology
+    back: ClothingBackpackDuffelVirology
+    head: ClothingHeadHatBeretSecurityMedic
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesCheapSunglasses
+    id: CBURNPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityFilled
+    pocket1: LPPCBURNUplinkShop
+
+- type: startingGear
+  id: LPPDeltaOperatorGear
+  equipment:
+    jumpsuit: LPPUtilSec
+    back: LPPClothingBackpackIIC
+    head: ClothingHeadHatBeretWarden
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSecurity
+    id: LPPDeltaOpsPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltSecurityFilled
+
+- type: startingGear
+  id: LPPDeltaEngineerGear
+  equipment:
+    jumpsuit: LPPUtilCargo
+    back: LPPClothingBackpackIIC
+    head: ClothingHeadHatBeretEngineering
+    shoes: ClothingShoesBootsCombat
+    eyes: ClothingEyesGlassesSecurity
+    id: ERTEngineerPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltUtilityEngineering
+
+- type: startingGear
+  id: LPPDeltaMedicGear
+  equipment:
+    jumpsuit: LPPUtilAtmos
+    back: LPPClothingBackpackIIC
+    head: ClothingHeadHatBeretWarden
+    shoes: ClothingShoesBootsCombat
+    eyes: ClothingEyesGlassesSecurity
+    id: LPPDeltaMedPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltMedicalEMTFilled
+
+- type: startingGear
+  id: LPPDeltaPyrotechGear
+  equipment:
+    jumpsuit: LPPUtilCargo
+    back: LPPClothingBackpackIIC
+    head: ClothingHeadHatBeretWarden
+    shoes: ClothingShoesBootsCombat
+    eyes: ClothingEyesGlassesSecurity
+    id: ERTJanitorPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    belt: WeaponPistolMk58
+
+- type: startingGear
+  id: LPPDeltaCommanderGear 
+  equipment:
+    jumpsuit: LPPUtilRnd
+    back: LPPClothingBackpackIIC
+    head: ClothingHeadHatBeretHoS
+    neck: ClothingNeckMantleERTLeader
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSecurity
+    id: LPPDeltaComPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponPulsePistol
+    pocket1: LPPDeltaUplinkShop
+
+
+- type: entity
+  parent: CentcomIDCard
+  id: LPPCBURNAgentIDCard
+  name: ID карта (ликвидатор РХБЗЗ)
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: IdCard
+    jobTitle: Ликвидатор РХБЗЗ
+
+- type: entity
+  parent: CentcomIDCard
+  id: LPPCBURNBiologistIDCard
+  name: ID карта (полевой специалист РХБЗЗ)
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: IdCard
+    jobTitle: Полевой специалист РХБЗЗ
+
+- type: entity
+  parent: CentcomIDCard
+  id: LPPCBURNLeaderIDCard
+  name: ID карта (командир отряда РХБЗЗ)
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: IdCard
+    jobTitle: Командир РХБЗЗ
+
+- type: entity
+  parent: CBURNPDA
+  id: LPPCBURNAgentPDA
+  name: кпк ликвидатора отряда РХБЗЗ
+  description: Пахнет напалмом.
+  components:
+  - type: Pda
+    id: LPPCBURNAgentIDCard
+
+- type: entity
+  parent: CBURNPDA
+  id: LPPCBURNBiologistPDA
+  name: кпк специалиста отряда РХБЗЗ
+  description: Пахнет напалмом.
+  components:
+  
+  - type: Pda
+    id: LPPCBURNBiologistIDCard
+
+- type: entity
+  parent: CBURNPDA
+  id: LPPCBURNLeaderPDA
+  name: кпк командира отряда РХБЗЗ
+  description: Пахнет напалмом.
+  components:
+  - type: Pda
+    id: LPPCBURNLeaderIDCard
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: LPPDeltaOpsIDCard
+  name: ID карта (оперативник ОСН "Дельта")
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_security
+  - type: IdCard
+    jobTitle: Оперативник ОСН "Дельта"
+
+- type: entity
+  parent: ERTSecurityPDA
+  id: LPPDeltaOpsPDA
+  name: кпк оперативника ОСН "Дельта"
+  description: Всем лежать! Здесь штурмоотряд!
+  components:
+  - type: Pda
+    id: LPPDeltaOpsIDCard
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: LPPDeltaMedIDCard
+  name: ID карта (медик ОСН "Дельта")
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_security
+  - type: IdCard
+    jobTitle: Медик ОСН "Дельта"
+
+- type: entity
+  parent: ERTSecurityPDA
+  id: LPPDeltaMedPDA
+  name: кпк медика ОСН "Дельта"
+  description: Вытащит задницу напарника из любой бездны
+  components:
+  - type: Pda
+    id: LPPDeltaMedIDCard
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: LPPDeltaEngIDCard
+  name: ID карта (полевой инженер ОСН "Дельта")
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_security
+  - type: IdCard
+    jobTitle: Полевой инженер ОСН "Дельта"
+
+- type: entity
+  parent: ERTSecurityPDA
+  id: LPPDeltaEngPDA
+  name: кпк полевого инженера ОСН "Дельта"
+  suffix: Security
+  description: Наполнен чертежами укреплений
+  components:
+  - type: Pda
+    id: LPPDeltaEngIDCard
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: LPPDeltaAstIDCard
+  name: ID карта (штурмовик ОСН "Дельта")
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_security
+  - type: IdCard
+    jobTitle: Штурмовик ОСН "Дельта"
+
+- type: entity
+  parent: ERTSecurityPDA
+  id: LPPDeltaAstPDA
+  name: кпк штурмовика ОСН "Дельта"
+  description: Отдает эхом взрывов.
+  components:
+  - type: Pda
+    id: LPPDeltaAstIDCard
+
+- type: entity
+  parent: ERTSecurityIDCard
+  id: LPPDeltaComIDCard
+  name: ID карта (командир ОСН "Дельта")
+  components:
+  - type: Sprite
+    layers:
+    - state: gold
+    - state: ert_security
+  - type: IdCard
+    jobTitle: Командир ОСН "Дельта"
+
+- type: entity
+  parent: ERTSecurityPDA
+  id: LPPDeltaComPDA
+  name: кпк командира ОСН "Дельта"
+  description: Наверняка там много интересных файлов.
+  components:
+  - type: Pda
+    id: LPPDeltaComIDCard
