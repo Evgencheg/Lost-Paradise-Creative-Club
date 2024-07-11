@@ -153,6 +153,8 @@ loadout-group-detective-jumpsuit = Униформа детектива
 loadout-group-detective-backpack = Рюкзак детектива
 loadout-group-detective-outerclothing = Верхняя одежда детектива
 
+loadout-group-brigmedic-outerclothing = Верхняя одежда полевого врача
+
 loadout-group-security-cadet-jumpsuit = Униформа кадета
 
 # Medical
