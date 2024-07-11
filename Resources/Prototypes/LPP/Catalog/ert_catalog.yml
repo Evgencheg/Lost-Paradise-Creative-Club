@@ -568,7 +568,7 @@
   description: ert-catalog-medicine-bottle-stimulants-desc
   productEntity: LPPChemistryBottleStimulant
   cost:
-    Telecrystal: 2
+    Telecrystal: 3
   categories:
   - LPPERTMedicine
 
@@ -578,7 +578,7 @@
   description: ert-catalog-medicine-bottle-epinephrine-desc
   productEntity: EpinephrineChemistryBottle
   cost:
-    Telecrystal: 2
+    Telecrystal: 1
   categories:
   - LPPERTMedicine
 
@@ -588,7 +588,7 @@
   description: ert-catalog-medicine-bottle-omnizine-desc
   productEntity: OmnizineChemistryBottle
   cost:
-    Telecrystal: 2
+    Telecrystal: 3
   categories:
   - LPPERTMedicine
 
