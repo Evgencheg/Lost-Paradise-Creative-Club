@@ -14,24 +14,24 @@
     heldPrefix: moon
   - type: EmitSoundOnUse
     sound:
-      path: LPP/Audio/Items/Toys/moon.ogg
+      path: Audio/LPP/Items/Toys/moon.ogg
   - type: EmitSoundOnLand
     sound:
-      path: LPP/Audio/Items/Toys/moon.ogg
+      path: Audio/LPP/Items/Toys/moon.ogg
   - type: EmitSoundOnActivate
     sound:
-      path: LPP/Audio/Items/Toys/moon.ogg
+      path: Audio/LPP/Items/Toys/moon.ogg
   - type: EmitSoundOnTrigger
     sound:
-      path: LPP/Audio/Items/Toys/moon.ogg
+      path: Audio/LPP/Items/Toys/moon.ogg
   - type: Food
     requiresSpecialDigestion: true
     useSound:
-      path: LPP/Audio/Items/Toys/moon.ogg
+      path: Audio/LPP/Items/Toys/moon.ogg
   - type: MeleeWeapon
     wideAnimationRotation: 180
     soundHit:
-      path: LPP/Audio/Items/Toys/moon.ogg
+      path: Audio/LPP/Items/Toys/moon.ogg
       
 - type: entity
   parent: BasePlushie
@@ -47,21 +47,21 @@
     heldPrefix: pebbles
   - type: EmitSoundOnUse
     sound:
-      path: LPP/Audio/Items/Toys/pebbles.ogg
+      path: Audio/LPP/Items/Toys/pebbles.ogg
   - type: EmitSoundOnLand
     sound:
-      path: LPP/Audio/Items/Toys/pebbles.ogg
+      path: Audio/LPP/Items/Toys/pebbles.ogg
   - type: EmitSoundOnActivate
     sound:
-      path: LPP/Audio/Items/Toys/pebbles.ogg
+      path: Audio/LPP/Items/Toys/pebbles.ogg
   - type: EmitSoundOnTrigger
     sound:
-      path: LPP/Audio/Items/Toys/pebbles.ogg
+      path: Audio/LPP/Items/Toys/pebbles.ogg
   - type: Food
     requiresSpecialDigestion: true
     useSound:
-      path: LPP/Audio/Items/Toys/pebbles.ogg
+      path: Audio/LPP/Items/Toys/pebbles.ogg
   - type: MeleeWeapon
     wideAnimationRotation: 180
     soundHit:
-      path: LPP/Audio/Items/Toys/pebbles.ogg
+      path: Audio/LPP/Items/Toys/pebbles.ogg
