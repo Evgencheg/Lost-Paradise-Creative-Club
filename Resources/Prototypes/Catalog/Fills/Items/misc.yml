@@ -1,0 +1,39 @@
+- type: entity
+  id: ClothingShoesBootsCombatFilled
+  parent:
+  - ClothingShoesBootsCombat
+
+
+- type: entity
+  id: ClothingShoesBootsJackFilled
+  parent:
+  - ClothingShoesBootsJack
+
+
+- type: entity
+  id: ClothingShoesBootsWinterSecFilled
+  parent:
+  - ClothingShoesBootsWinterSec
+
+
+- type: entity
+  id: ClothingShoesBootsCowboyBlackFilled
+  parent:
+  - ClothingShoesBootsCowboyBlack
+
+
+- type: entity
+  id: ClothingShoesHighheelBootsFilled
+  parent:
+  - ClothingShoesHighheelBoots
+
+
+- type: entity
+  id: ClothingShoesBootsMercFilled
+  parent: ClothingShoesBootsMerc
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - KukriKnife

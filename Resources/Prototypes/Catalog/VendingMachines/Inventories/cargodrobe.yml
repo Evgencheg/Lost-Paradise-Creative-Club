@@ -1,0 +1,30 @@
+- type: vendingMachineInventory
+  id: CargoDrobeInventory
+  startingInventory:
+    ClothingBackpackCargo: 3
+    ClothingBackpackSatchelCargo: 3
+    ClothingBackpackDuffelCargo: 3
+    ClothingUniformJumpsuitCargo: 3
+    ClothingUniformJumpskirtCargo: 3
+    ClothingShoesColorBlack: 3
+    ClothingHandsGlovesFingerless: 3
+    ClothingHeadHatCargosoft: 3
+    ClothingHeadBandBrown: 3
+    ClothingHeadsetCargo: 3
+    ClothingOuterWinterCargo: 2
+    ClothingOuterWinterMiner: 2
+    ClothingNeckScarfStripedBrown: 3
+    # LPPCargoBlackSkirt: 3
+    # LPPCargotechjean: 3
+    # LPPGorkaCargo: 3
+    # LPPGorkaCargoVarg: 3
+    # LPPQmcCargo: 3
+    # LPPQmsyndCargo: 3
+    # LPPSkirtleneckCargo: 3
+    # LPPSkirtleneckQMCargo: 3
+    # LPPSupplyChiefCargo: 3
+    # LPPSupplyChiefSkirtCargo: 3
+    # LPPTurtleneckQmCargo: 3
+    # LPPUtilCargo: 3
+    # LPPClothingOuterCoatCargo: 3
+    ClothingShoesBootsWinterCargo: 2

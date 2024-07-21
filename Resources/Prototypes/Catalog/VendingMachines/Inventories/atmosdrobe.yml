@@ -1,0 +1,27 @@
+- type: vendingMachineInventory
+  id: AtmosDrobeInventory
+  startingInventory:
+    ClothingBackpackDuffelAtmospherics: 2
+    ClothingBackpackSatchelAtmospherics: 2
+    ClothingBackpackAtmospherics: 2
+    ClothingUniformJumpsuitAtmos: 3
+    ClothingUniformJumpskirtAtmos: 3
+    ClothingUniformJumpsuitAtmosCasual: 3
+    ClothingShoesColorWhite: 3
+    ClothingHeadsetEngineering: 2
+    ClothingHeadHelmetFire: 2
+    ClothingOuterSuitFire: 2
+    ClothingOuterWinterAtmos: 2
+    ClothingNeckScarfStripedLightBlue: 3
+    # LPPAtmosBlackSkirt: 3
+    # LPPAtmostechjean: 3
+    # LPPGorkaAtmos: 3
+    # LPPGorkaWithReflectorsAtmos: 3
+    # LPPQmcAtmos: 3
+    # LPPQmsyndAtmos: 3
+    # LPPSkirtleneckAtmos: 3
+    # LPPSkirtleneckQMAtmos: 3
+    # LPPSupplyChiefAtmos: 3
+    # LPPSupplyChiefSkirtAtmos: 3
+    # LPPTurtleneckQmAtmos: 3
+    # LPPUtilAtmos: 3

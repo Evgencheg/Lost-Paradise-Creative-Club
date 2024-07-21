@@ -1,0 +1,30 @@
+﻿- type: job
+  id: MedicalIntern
+  name: job-name-intern
+  description: job-description-intern
+  playTimeTracker: JobMedicalIntern
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Medical
+#      time: 54000 # 15 hrs
+#      inverted: true # stop playing intern if you're good at med!
+  startingGear: MedicalInternGear
+  icon: "JobIconMedicalIntern"
+  supervisors: job-supervisors-medicine
+  access:
+  - Medical
+  - Maintenance
+
+- type: startingGear
+  id: MedicalInternGear
+  equipment:
+    shoes: ClothingShoesColorWhite
+    id: MedicalInternPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+    pocket2: BookMedicalReferenceBook
+  #storage:
+    #back:
+    #- Stuff

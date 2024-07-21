@@ -1,0 +1,35 @@
+﻿- type: lobbyBackground
+  id: VyL55g
+  background: /Textures/LobbyScreens/VyL55g.jpg
+
+- type: lobbyBackground
+  id: L2AGnv
+  background: /Textures/LobbyScreens/L2AGnv.jpg
+
+- type: lobbyBackground
+  id: g2Jl2L
+  background: /Textures/LobbyScreens/g2Jl2L.jpg
+
+# - type: lobbyBackground
+#   id: Borman
+#   background: /Textures/LPP/LobbyScreens/borman.png
+#
+# - type: lobbyBackground
+#   id: Teftelka
+#   background: /Textures/LPP/LobbyScreens/teftelka.png
+#
+# - type: lobbyBackground
+#   id: Penisher
+#   background: /Textures/LPP/LobbyScreens/penisher.png
+#
+# - type: lobbyBackground
+#   id: Amina
+#   background: /Textures/LPP/LobbyScreens/amina.png
+#
+# - type: lobbyBackground
+#   id: Bigmoon
+#   background: /Textures/LPP/LobbyScreens/bigmoon.png
+#
+# - type: lobbyBackground
+#   id: Vulpsec
+#   background: /Textures/LPP/LobbyScreens/vulpsec.png

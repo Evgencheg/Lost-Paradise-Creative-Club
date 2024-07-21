@@ -1,0 +1,101 @@
+- type: entity
+  save: false
+  name: Urisst' Mzhand
+  parent: LPPBaseMobSpeciesOrganic
+  id: BaseMobReptilian
+  abstract: true
+  components:
+    - type: HumanoidAppearance
+      species: Reptilian
+      hideLayersOnEquip:
+      - Snout
+      - HeadTop
+      - HeadSide
+    - type: Hunger
+      starvationDamage:
+        types:
+          Cold: 0.5
+          Bloodloss: 0.5
+    - type: Puller
+      needsHands: false
+    - type: Thirst
+    - type: Icon
+      sprite: Mobs/Species/Reptilian/parts.rsi
+      state: full
+    - type: Body
+      prototype: Reptilian
+      requiredLegs: 2
+    - type: Inventory
+      speciesId: reptilian
+    - type: Perishable
+    - type: Butcherable
+      butcheringType: Spike
+      spawned:
+      - id: FoodMeatLizard
+        amount: 5
+    - type: LizardAccent
+    - type: Speech
+      speechSounds: Lizard
+      speechVerb: Reptilian
+    - type: TypingIndicator
+      proto: lizard
+    - type: Vocal
+      sounds:
+        Male: MaleReptilian
+        Female: FemaleReptilian
+        Unsexed: MaleReptilian
+    - type: Damageable
+      damageContainer: Biological
+      damageModifierSet: Scale
+    - type: MeleeWeapon
+      soundHit:
+        collection: AlienClaw
+      angle: 30
+      animation: WeaponArcClaw
+      damage:
+        types:
+          Slash: 5
+    - type: Temperature
+      heatDamageThreshold: 400
+      coldDamageThreshold: 285
+      currentTemperature: 310.15
+      specificHeat: 42
+      coldDamage:
+        types:
+          Cold : 0.1 #per second, scales with temperature & other constants
+      heatDamage:
+        types:
+          Heat : 0.1 #per second, scales with temperature & other constants
+    # - type: Wagging
+    # - type: LanguageSpeaker
+    #   speaks:
+    #   - GalacticCommon
+    #   - LPPDraconic
+    #   - LPPCintaTaj
+    #   understands:
+    #   - GalacticCommon
+    #   - LPPDraconic
+    #   - LPPCintaTaj
+    # - type: EmotePanel
+    #   race: Unathi
+    # - type: SizeAttributeWhitelist
+    #   tall: true
+    #   tallscale: 1.2
+    #   short: true
+    #   shortscale: 0.85
+    #   shortDensity: 140
+    #   shortCosmeticOnly: false
+
+- type: entity
+  save: false
+  parent: BaseSpeciesDummy
+  id: MobReptilianDummy
+  noSpawn: true
+  description: A dummy reptilian meant to be used in character setup.
+  components:
+    - type: HumanoidAppearance
+      species: Reptilian
+    - type: Inventory
+      templateId: reptilian
+
+#Weh

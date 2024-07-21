@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingMaskGas
+  id: LCCClothingMaskGasBrigmedic
+  name: field medic gas mask
+  description: A medical mask modified for use in combat also protects you from accidentally spilled chemicals.
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: LCC/Clothing/Mask/maskbm.rsi
+  - type: Clothing
+    sprite: LCC/Clothing/Mask/maskbm.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+        Caustic: 0.9

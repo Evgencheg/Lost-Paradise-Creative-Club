@@ -1,0 +1,189 @@
+- type: entity
+  parent: LPPAirlockSalvageGlass
+  id: LPPAirlockExternalGlassSalvageLocked
+  suffix: Salvage, Locked
+  components:
+  - type: AccessReader
+    access: [["Salvage"]]
+
+- type: entity
+  parent: LPPAirlockSalvage
+  id: LPPAirlockSalvageLocked
+  suffix: Salvage, Locked
+  components:
+  - type: AccessReader
+    access: [["Salvage"]]
+
+
+#----------синддигаты-------#
+#----СБ
+- type: entity
+  parent: AirlockSecurityGlass
+  id: AirlockSecuritySynGlassLocked
+  suffix: SecuritySyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SecuritySyn"]]
+
+- type: entity
+  parent: AirlockSecurity
+  id: AirlockSecuritySynLocked
+  suffix: SecuritySyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SecuritySyn"]]
+
+#----РНД
+- type: entity
+  parent: AirlockScience
+  id: AirlockResearchSynLocked
+  suffix: ResearchSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ResearchSyn"]]
+
+- type: entity
+  parent: AirlockScienceGlass
+  id: AirlockResearchSynGlassLocked
+  suffix: ResearchSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ResearchSyn"]]
+
+#----Сервис
+- type: entity
+  parent: Airlock
+  id: AirlockServiceSynLocked
+  suffix: ServiceSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ServiceSyn"]]
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockServiceSynGlassLocked
+  suffix: ServiceSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ServiceSyn"]]
+
+#-----инж.
+
+- type: entity
+  parent: AirlockEngineering
+  id: AirlockEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+
+- type: entity
+  parent: AirlockEngineeringGlass
+  id: AirlockGlassEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+
+#---тех. шлюзы
+- type: entity
+  parent: AirlockExternal
+  id: AirlockExternalEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+
+- type: entity
+  parent: AirlockExternalGlass
+  id: AirlockExternalGlassEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+
+#----карго
+- type: entity
+  parent: AirlockCargo
+  id: AirlockSalvageSynLocked
+  suffix: SalvageSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SalvageSyn"]]
+
+- type: entity
+  parent: AirlockCargoGlass
+  id: AirlockSalvageSynGlassLocked
+  suffix: SalvageSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SalvageSyn"]]
+
+#----Мед
+- type: entity
+  parent: AirlockMedical
+  id: AirlockMedicalSynLocked
+  suffix: MedicalSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["MedicalSyn"]]
+
+- type: entity
+  parent: AirlockMedicalGlass
+  id: AirlockMedicalSynGlassLocked
+  suffix: MedicalSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["MedicalSyn"]]
+
+#-----главы
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCentralCommandSynGlassLocked
+  suffix: CommandSyndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["CommandSyndicate"]]
+
+- type: entity
+  parent: AirlockSecurity
+  id: WindoorHeadOfSecuritySynLocked
+  suffix: HeadOfSecuritySyn, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfSecuritySyn"]]
+
+- type: entity
+  parent: AirlockCommand
+  id: WindoorHeadOfPersonnelSynLocked
+  suffix: HeadOfPersonnelSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfPersonnelSyn"]]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCaptainSynLocked
+  suffix: CaptainSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["CaptainSyn"]]
+#----EVA------
+- type: entity
+  parent: AirlockCommandGlassLocked
+  id: AirlockEVASynGlassLocked
+  suffix: EVASyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+
+#----сейф-----
+- type: entity
+  parent: AirlockHatch
+  id: AirlockHatchEngineeringSyndicateLocked
+  suffix: EngineeringSyndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+
+#---------------------------#

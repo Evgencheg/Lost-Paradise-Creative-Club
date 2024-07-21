@@ -1,0 +1,13 @@
+- type: constructionGraph
+  id: BoneArmor
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: armor
+      steps:
+      - material: Bones
+        amount: 6
+        doAfter: 2
+  - node: armor
+    entity: ClothingOuterArmorBone

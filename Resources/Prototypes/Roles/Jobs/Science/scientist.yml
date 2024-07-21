@@ -1,0 +1,26 @@
+- type: job
+  id: Scientist
+  name: job-name-scientist
+  description: job-description-scientist
+  playTimeTracker: JobScientist
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 36000 # LPP-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 18000 # LPP-RoleTime
+  startingGear: ScientistGear
+  icon: "JobIconScientist"
+  supervisors: job-supervisors-rd
+  access:
+  - Research
+  - Maintenance
+
+- type: startingGear
+  id: ScientistGear
+  equipment:
+    ears: ClothingHeadsetScience
+    id: SciencePDA
+  #storage:
+    #back:
+    #- Stuff

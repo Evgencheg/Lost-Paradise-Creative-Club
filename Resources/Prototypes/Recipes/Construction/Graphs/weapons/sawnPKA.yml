@@ -1,0 +1,12 @@
+- type: constructionGraph
+  id: ProtoKineticAcceleratorSawn
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: PKASawn
+          steps:
+            - tool: Sawing
+              doAfter: 2
+    - node: pkasawn
+      entity: LPPWeaponProtoKineticAcceleratorSawn

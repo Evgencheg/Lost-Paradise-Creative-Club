@@ -1,0 +1,29 @@
+- type: vendingMachineInventory
+  id: SciDrobeInventory
+  startingInventory:
+    ClothingBackpackScience: 3
+    ClothingBackpackSatchelScience: 3
+    ClothingBackpackDuffelScience: 3
+    ClothingUniformJumpsuitScientist: 3
+    ClothingUniformJumpskirtScientist: 3
+    ClothingUniformJumpsuitScientistFormal: 3
+    # LPPRndBlackSkirt: 3
+    # LPPRndtechjean: 3
+    # LPPGorkaRnd: 3
+    # LPPGorkaRndVarg: 3
+    # LPPQmcRnd: 3
+    # LPPQmsyndRnd: 3
+    # LPPSkirtleneckRnd: 3
+    # LPPSkirtleneckQMRnd: 3
+    # LPPSupplyChiefRnd: 3
+    # LPPSupplyChiefSkirtRnd: 3
+    # LPPTurtleneckQmRnd: 3
+    # LPPUtilRnd: 3
+    ClothingOuterCoatRnd: 3
+    ClothingShoesColorWhite: 3
+    ClothingNeckTieSci: 3
+    ClothingHeadsetScience: 3
+    ClothingMaskGas: 3
+    ClothingOuterWinterSci: 2
+    ClothingNeckScarfStripedPurple: 3
+    ClothingShoesBootsWinterSci: 2

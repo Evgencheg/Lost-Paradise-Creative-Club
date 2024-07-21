@@ -1,0 +1,8 @@
+- type: statusIcon
+  id: DiseasedIcon
+  offset: 1
+  priority: 2
+  icon:
+    sprite: /Textures/Interface/Misc/health_icons.rsi
+    state: Diseased
+  locationPreference: Right

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadHatHoodWinterBase
+  id: LCCClothingHeadHatCoatHoodBrigmed
+  noSpawn: false
+  name: field medic coat hood
+  components:
+  - type: Sprite
+    sprite: LCC/Clothing/Head/Hoods/Coat/hoodbm.rsi
+  - type: Clothing
+    sprite: LCC/Clothing/Head/Hoods/Coat/hoodbm.rsi

@@ -1,0 +1,23 @@
+- type: accessLevel
+  id: ResearchDirector
+  name: id-card-access-level-research-director
+
+- type: accessLevel
+  id: Research
+  name: id-card-access-level-research
+
+- type: accessLevel
+  id: Robotics
+  name: id-card-access-level-robotics
+
+- type: accessLevel
+  id: Gateway
+  name: Врата
+
+- type: accessGroup
+  id: Research
+  tags:
+  - ResearchDirector
+  - Research
+  - Robotics
+  - Expeditor

@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LCCClothingOuterCoatBrigmed
+  name: field medic coat
+  description: A coat, made of dense material with little protection from spilled chemicals, has beautiful reflectors on the shoulders
+  components:
+  - type: Sprite
+    sprite: LCC/Clothing/Coats/brigmed_coat.rsi
+  - type: Clothing
+    sprite: LCC/Clothing/Coats/brigmed_coat.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LCCClothingHeadHatCoatHoodBrigmed
+    slot: head
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.8
+        Piercing: 0.6
+        Heat: 0.80
+        Caustic: 0.8

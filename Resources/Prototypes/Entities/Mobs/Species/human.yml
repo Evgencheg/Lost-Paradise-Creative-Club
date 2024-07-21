@@ -1,0 +1,43 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobHuman
+  name: Urist McHands
+  abstract: true
+  components:
+  - type: Hunger
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: Mobs/Species/Human/parts.rsi
+    state: full
+  - type: Thirst
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  # - type: LanguageSpeaker
+  #   speaks:
+  #   - GalacticCommon
+  #   - LPPSolCommon
+  #   understands:
+  #   - GalacticCommon
+  #   - LPPSolCommon
+  # - type: HumanoidAppearance
+  #   species: Human
+  #   hideLayersOnEquip:
+  #   - Hair
+  #   - Snout
+  # - type: EmotePanel
+  #   race: Human
+  # - type: SizeAttributeWhitelist
+  #   tall: true
+  #   tallscale: 1.1
+  #   short: true
+  #   shortscale: 0.85
+  #   shortDensity: 140
+  #   shortCosmeticOnly: false
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobHumanDummy
+  noSpawn: true

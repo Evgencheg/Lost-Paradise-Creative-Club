@@ -1,0 +1,35 @@
+- type: job
+  id: IAA
+  name: job-name-iaa
+  playTimeTracker: JobIAA
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 72000
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 36000
+  startingGear: IAAGear
+  icon: "JobIconIAA"
+  supervisors: job-supervisors-mag-centcom
+  canBeAntag: false
+  access:
+  - Service
+  - Brig
+  - Maintenance
+  - Command
+  - External
+  - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: IAAGear
+  equipment:
+    id: IAAPDA
+    # eyes: LPPAVDEyeshud
+    shoes: ClothingShoesBootsLaceup
+    ears: ClothingHeadsetIAA
+  inhand:
+    - BriefcaseIAAFilled

@@ -1,0 +1,17 @@
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyIAA
+  name: iaa encryption key
+  description: An encryption key used by the most meticulous person.
+  components:
+    - type: EncryptionKey
+      channels:
+      - Common
+      - Command
+      - Security
+      - Law
+      defaultChannel: Command
+    - type: Sprite
+      layers:
+      - state: crypt_silver
+      - state: nano_label
