@@ -27387,7 +27387,7 @@ entities:
     - type: Transform
       pos: 6.4847555,1.0872458
       parent: 2
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 5507
     components:

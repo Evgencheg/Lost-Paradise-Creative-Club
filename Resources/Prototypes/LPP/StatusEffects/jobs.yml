@@ -12,19 +12,19 @@
     sprite: /Textures/LPP/Interface/Misc/lpp_job_icons.rsi
     state: Blueshield
 
-- type: statusIcon
-  parent: JobIcon
-  id: JobIconMagistrate
-  icon:
-    sprite: /Textures/LPP/Interface/Misc/lpp_job_icons.rsi
-    state: Magistrate
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconMagistrate
+#   icon:
+#     sprite: /Textures/LPP/Interface/Misc/lpp_job_icons.rsi
+#     state: Magistrate
 
-- type: statusIcon
-  parent: JobIcon
-  id: JobIconSecPilot
-  icon:
-    sprite: /Textures/LPP/Interface/Misc/lpp_job_icons.rsi
-    state: SecPilot
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconSecPilot
+#   icon:
+#     sprite: /Textures/LPP/Interface/Misc/lpp_job_icons.rsi
+#     state: SecPilot
 
 - type: statusIcon
   parent: JobIcon
@@ -127,4 +127,3 @@
   icon:
     sprite: /Textures/LPP/Interface/Misc/lpp_job_icons_syn.rsi
     state: StationEngineer_Syn
-

@@ -1,16 +1,3 @@
-ent-LPPLeftArmBorgErotic = левая рука эротического-киборга
-    .desc = { ent-BaseBorgArmLeft.desc }
-ent-LPPRightArmBorgErotic = правая рука эротического-киборга
-    .desc = { ent-BaseBorgArmRight.desc }
-ent-LPPLeftLegBorgErotic = левая нога эротического-киборга
-    .desc = { ent-BaseBorgLegLeft.desc }
-ent-LPPRightLegBorgErotic = правая нога эротического-киборга
-    .desc = { ent-BaseBorgLegRight.desc }
-ent-LPPHeadBorgErotic = голова эротического-киборга
-    .desc = { ent-BaseBorgHead.desc }
-ent-LPPTorsoBorgErotic = тело эротического-киборга
-    .desc = { ent-BaseBorgTorso.desc }
-
 ent-LPPLeftArmBorgSecurity = левая рука киборга-безопасности
     .desc = { ent-BaseBorgArmLeft.desc }
 ent-LPPRightArmBorgSecurity = правая рука киборга-безопасности

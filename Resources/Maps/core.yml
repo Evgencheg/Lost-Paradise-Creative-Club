@@ -58982,7 +58982,7 @@ entities:
     - type: Transform
       pos: 51.5,4.5
       parent: 2
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 16650
     components:
@@ -100393,7 +100393,7 @@ entities:
     - type: Transform
       pos: 49.5,-26.5
       parent: 2
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 15174
     components:
@@ -117939,7 +117939,7 @@ entities:
     - type: Transform
       pos: 52.5,-10.5
       parent: 2
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 5733
     components:

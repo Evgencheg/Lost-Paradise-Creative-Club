@@ -30001,7 +30001,7 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 11811
     components:
@@ -55992,7 +55992,7 @@ entities:
     - type: Transform
       pos: 11.5,54.5
       parent: 4812
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 4935
     components:
@@ -67148,7 +67148,7 @@ entities:
     - type: Transform
       pos: -19.5,-16.5
       parent: 4812
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 3281
     components:

@@ -3005,7 +3005,7 @@ entities:
     - type: Transform
       pos: -1.598994,0.6269134
       parent: 603
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 493
     components:

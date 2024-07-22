@@ -2550,7 +2550,7 @@ entities:
       pos: 9.48009,-2.38844
       parent: 1
       type: Transform
-- proto: ClosetBase
+- proto: ClosetSteel
   entities:
   - uid: 496
     components:

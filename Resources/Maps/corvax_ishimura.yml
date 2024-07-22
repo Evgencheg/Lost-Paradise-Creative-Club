@@ -15175,7 +15175,7 @@ entities:
     - type: Transform
       pos: -15.5,-20.5
       parent: 22565
-- proto: AirlockServiceCaptainLocked
+- proto: AirlockCaptainLocked
   entities:
   - uid: 671
     components:
@@ -20772,7 +20772,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -1.3417411,15.598124
       parent: 89
-- proto: BodyBag_Container
+- proto: BodyBag
   entities:
   - uid: 25845
     components:
@@ -20816,7 +20816,7 @@ entities:
     - type: Transform
       pos: 9.534124,9.582435
       parent: 89
-- proto: BookDetective
+- proto: BookRandomStory
   entities:
   - uid: 12845
     components:
@@ -20828,7 +20828,7 @@ entities:
     - type: Transform
       pos: -36.530155,28.398226
       parent: 89
-- proto: BookEscalationSecurity
+- proto: BookRandomStory
   entities:
   - uid: 8358
     components:
@@ -21319,7 +21319,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: BoxMagazineRifleRubber
+- proto: BoxMagazineRifle
   entities:
   - uid: 530
     components:
@@ -59658,6 +59658,13 @@ entities:
     - type: Transform
       pos: -3.5,9.5
       parent: 89
+- proto: ChemDispenserEmpty
+  entities:
+  - uid: 4977
+    components:
+    - type: Transform
+      pos: -0.5,5.5
+      parent: 89
 - proto: ChemicalPayload
   entities:
   - uid: 16979
@@ -60895,7 +60902,7 @@ entities:
     - type: Transform
       pos: -122.5,-10.5
       parent: 89
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 3964
     components:
@@ -72106,7 +72113,7 @@ entities:
     - type: Transform
       pos: -36.558395,29.720085
       parent: 89
-- proto: DrinkBottleGoldschlager
+- proto: DrinkBottleGildlager
   entities:
   - uid: 5393
     components:
@@ -115830,7 +115837,7 @@ entities:
     - type: Transform
       pos: 25.5,38.5
       parent: 89
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 5741
     components:
@@ -137530,7 +137537,7 @@ entities:
     - type: Transform
       pos: 44.780033,-9.149914
       parent: 89
-- proto: SpeedLoaderMagnumRubber
+- proto: SpeedLoaderMagnum
   entities:
   - uid: 2770
     components:
@@ -164257,7 +164264,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 42.586205,-4.659999
       parent: 89
-- proto: WeaponPistolMk58Nonlethal
+- proto: WeaponPistolMk58
   entities:
   - uid: 22454
     components:
@@ -164385,7 +164392,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: WeaponSubMachineGunDrozdRubber
+- proto: WeaponSubMachineGunDrozd
   entities:
   - uid: 22453
     components:

@@ -2891,7 +2891,7 @@ entities:
     - pos: -6.5,-0.5
       parent: 818
       type: Transform
-- proto: GeneratorUranium
+- proto: PortableGeneratorSuperPacman
   entities:
   - uid: 231
     components:

@@ -20110,7 +20110,7 @@ entities:
     - type: Transform
       pos: -20.5,-26.5
       parent: 2
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 1599
     components:
@@ -56502,7 +56502,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 21.543087,-16.563213
       parent: 2
-- proto: WeaponPistolN1984Nonlethal
+- proto: WeaponPistolN1984
   entities:
   - uid: 8007
     components:

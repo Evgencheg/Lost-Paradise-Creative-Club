@@ -27246,7 +27246,7 @@ entities:
     - type: Transform
       pos: -19.5,19.5
       parent: 1
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 12521
     components:
@@ -27628,6 +27628,13 @@ entities:
     components:
     - type: Transform
       pos: -7.419932,-28.49488
+      parent: 1
+- proto: ClothingOuterCoatDetectiveLoadout
+  entities:
+  - uid: 12524
+    components:
+    - type: Transform
+      pos: -21.321499,-29.42984
       parent: 1
 - proto: ClothingOuterCoatJensen
   entities:
@@ -55208,7 +55215,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 6.5,23.5
       parent: 1
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 3910
     components:
@@ -66783,7 +66790,7 @@ entities:
     - type: Transform
       pos: -9.5,-25.5
       parent: 1
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 11927
     components:

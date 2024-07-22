@@ -3157,7 +3157,7 @@ entities:
     - type: Transform
       pos: 15.616387,0.61007345
       parent: 588
-- proto: BookEscalationSecurity
+- proto: BookRandomStory
   entities:
   - uid: 373
     components:

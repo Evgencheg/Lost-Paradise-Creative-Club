@@ -10509,7 +10509,7 @@ entities:
     - type: Transform
       pos: 53.5,37.5
       parent: 2
-- proto: AirlockServiceCaptainLocked
+- proto: AirlockCaptainLocked
   entities:
   - uid: 950
     components:
@@ -15090,7 +15090,7 @@ entities:
     - type: Transform
       pos: 60.34469,61.56679
       parent: 2
-- proto: BookDetective
+- proto: BookRandomStory
   entities:
   - uid: 3378
     components:
@@ -39760,6 +39760,13 @@ entities:
     components:
     - type: Transform
       pos: 25.506002,9.444837
+      parent: 2
+- proto: FoodPoppy
+  entities:
+  - uid: 4745
+    components:
+    - type: Transform
+      pos: 34.51092,10.621679
       parent: 2
 - proto: ClothingHeadHatHoodCulthood
   entities:
@@ -73773,7 +73780,7 @@ entities:
     - type: Transform
       pos: 40.118744,22.478914
       parent: 2
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 7201
     components:
@@ -75348,7 +75355,7 @@ entities:
     - type: Transform
       pos: 51.40751,31.584446
       parent: 2
-- proto: MagazineLightRifleRubber
+- proto: MagazineLightRifle
   entities:
   - uid: 3344
     components:
@@ -75368,7 +75375,7 @@ entities:
       rot: 12.566370614359172 rad
       pos: 60.84671,20.625843
       parent: 2
-- proto: MagazinePistolRubber
+- proto: MagazinePistol
   entities:
   - uid: 3252
     components:
@@ -75387,7 +75394,7 @@ entities:
     - type: Transform
       pos: 50.56761,26.468714
       parent: 2
-- proto: MagazineRifleRubber
+- proto: MagazineRifle
   entities:
   - uid: 3164
     components:

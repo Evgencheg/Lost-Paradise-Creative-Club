@@ -14242,6 +14242,13 @@ entities:
     - type: Transform
       pos: -60.353844,-63.575558
       parent: 30
+- proto: BookHowToCookForFortySpaceman
+  entities:
+  - uid: 9948
+    components:
+    - type: Transform
+      pos: -15.506373,7.7216425
+      parent: 30
 - proto: BookRandomStory
   entities:
   - uid: 21487
@@ -51070,7 +51077,7 @@ entities:
         - 0
         - 0
         - 0
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 7040
     components:
@@ -96319,7 +96326,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,82.5
       parent: 30
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 3637
     components:
@@ -116203,7 +116210,7 @@ entities:
     - type: Transform
       pos: -22.5,-5.5
       parent: 30
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 8383
     components:

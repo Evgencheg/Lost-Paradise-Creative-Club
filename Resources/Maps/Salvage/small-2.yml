@@ -302,7 +302,7 @@ entities:
     - type: Transform
       pos: -0.5,-2.5
       parent: 55
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 67
     components:

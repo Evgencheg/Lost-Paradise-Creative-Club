@@ -17997,7 +17997,7 @@ entities:
     - type: Transform
       pos: 34.5,-18.5
       parent: 1668
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 2491
     components:
@@ -18196,6 +18196,13 @@ entities:
     components:
     - type: Transform
       pos: -16.552616,8.708888
+      parent: 1668
+- proto: FoodPoppy
+  entities:
+  - uid: 6605
+    components:
+    - type: Transform
+      pos: -11.182456,6.7149878
       parent: 1668
 - proto: ClothingHeadHatWelding
   entities:
@@ -42022,5 +42029,12 @@ entities:
     components:
     - type: Transform
       pos: 9.506623,-4.4162817
+      parent: 1668
+- proto: OxygenTankFilled
+  entities:
+  - uid: 3901
+    components:
+    - type: Transform
+      pos: -12.625682,-7.0710163
       parent: 1668
 ...

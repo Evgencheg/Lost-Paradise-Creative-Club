@@ -588,7 +588,7 @@ entities:
     - type: Transform
       pos: 6.5,1.5
       parent: 1
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 472
     components:

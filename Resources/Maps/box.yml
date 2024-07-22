@@ -16433,6 +16433,13 @@ entities:
     - type: Transform
       pos: 60.576424,0.7512084
       parent: 8364
+- proto: BookHowToCookForFortySpaceman
+  entities:
+  - uid: 11336
+    components:
+    - type: Transform
+      pos: 38.39524,-6.593956
+      parent: 8364
 - proto: BookRandom
   entities:
   - uid: 26555
@@ -67134,7 +67141,7 @@ entities:
     - type: Transform
       pos: 9.5,-66.5
       parent: 8364
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 6614
     components:
@@ -68714,6 +68721,18 @@ entities:
     components:
     - type: Transform
       pos: -46.493744,14.462048
+      parent: 8364
+- proto: ClothingOuterCoatDetectiveLoadout
+  entities:
+  - uid: 5116
+    components:
+    - type: Transform
+      pos: 84.488655,-42.55825
+      parent: 8364
+  - uid: 17906
+    components:
+    - type: Transform
+      pos: 45.44214,-62.516068
       parent: 8364
 - proto: ClothingOuterCoatPirate
   entities:
@@ -120866,7 +120885,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,-64.5
       parent: 8364
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 6933
     components:
@@ -142966,7 +142985,7 @@ entities:
     - type: Transform
       pos: 44.5,-18.5
       parent: 8364
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 25879
     components:

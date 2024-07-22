@@ -361,35 +361,35 @@ entities:
     - type: Transform
       pos: 3.5,-0.5
       parent: 6
-- proto: BookBotanicalTextbook
+- proto: BookRandomStory
   entities:
   - uid: 167
     components:
     - type: Transform
       pos: 0.5361669,1.6180582
       parent: 6
-- proto: BookChemistryInsane
+- proto: BookRandomStory
   entities:
   - uid: 168
     components:
     - type: Transform
       pos: 2.926792,-4.553817
       parent: 6
-- proto: BookDemonomiconRandom
+- proto: BookRandomStory
   entities:
   - uid: 172
     components:
     - type: Transform
       pos: -5.5148144,2.5086832
       parent: 6
-- proto: BookDetective
+- proto: BookRandomStory
   entities:
   - uid: 166
     components:
     - type: Transform
       pos: -1.450138,2.177059
       parent: 6
-- proto: BookFishing
+- proto: BookRandomStory
   entities:
   - uid: 165
     components:
@@ -397,7 +397,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -5.463833,-3.7405434
       parent: 6
-- proto: BookGnominomicon
+- proto: BookRandomStory
   entities:
   - uid: 169
     components:

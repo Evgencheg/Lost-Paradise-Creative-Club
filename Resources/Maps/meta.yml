@@ -59634,7 +59634,7 @@ entities:
         - 0
         - 0
         - 0
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 13596
     components:
@@ -115384,7 +115384,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 103.5,8.5
       parent: 5350
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 24804
     components:
@@ -136500,7 +136500,7 @@ entities:
     - type: Transform
       pos: 44.5,8.5
       parent: 5350
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 4006
     components:

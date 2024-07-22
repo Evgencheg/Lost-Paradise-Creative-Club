@@ -38832,7 +38832,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 33.5,-3.5
       parent: 30
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 7587
     components:
@@ -46425,7 +46425,7 @@ entities:
     - type: Transform
       pos: 3.5,-15.5
       parent: 30
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 5430
     components:

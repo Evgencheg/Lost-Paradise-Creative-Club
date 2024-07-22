@@ -39428,7 +39428,7 @@ entities:
     - type: Transform
       pos: 21.5,4.5
       parent: 2
-- proto: ClosetSteelBase
+- proto: ClosetSteel
   entities:
   - uid: 2168
     components:
@@ -39797,6 +39797,13 @@ entities:
     components:
     - type: Transform
       pos: -7.0691323,-12.578384
+      parent: 2
+- proto: FoodPoppy
+  entities:
+  - uid: 13484
+    components:
+    - type: Transform
+      pos: -8.626973,-12.4412365
       parent: 2
 - proto: ClothingHeadHatHardhatYellow
   entities:
@@ -70997,7 +71004,7 @@ entities:
     - type: Transform
       pos: 18.5,27.5
       parent: 2
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 15116
     components:
@@ -72171,7 +72178,7 @@ entities:
     - type: Transform
       pos: -53.709747,-19.542288
       parent: 2
-- proto: MagazineLightRifleRubber
+- proto: MagazineLightRifle
   entities:
   - uid: 15209
     components:
@@ -72185,7 +72192,7 @@ entities:
     - type: Transform
       pos: -53.305122,-17.324821
       parent: 2
-- proto: MagazinePistolSubMachineGunRubber
+- proto: MagazinePistolSubMachineGun
   entities:
   - uid: 1620
     components:
@@ -72199,7 +72206,7 @@ entities:
     - type: Transform
       pos: -54.29088,-19.501635
       parent: 2
-- proto: MagazineRifleRubber
+- proto: MagazineRifle
   entities:
   - uid: 1568
     components:

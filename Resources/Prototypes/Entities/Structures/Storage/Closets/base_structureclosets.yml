@@ -1,5 +1,5 @@
 - type: entity
-  id: ClosetBase
+  id: ClosetSteelBase
   parent: BaseStructureDynamic
   name: closet
   description: A standard-issue Nanotrasen storage unit.
@@ -93,8 +93,8 @@
 
 # steel closet base (that can be constructed/deconstructed)
 - type: entity
-  id: ClosetSteelBase
-  parent: ClosetBase
+  id: ClosetSteel
+  parent: ClosetSteelBase
   components:
   - type: Construction
     graph: ClosetSteel

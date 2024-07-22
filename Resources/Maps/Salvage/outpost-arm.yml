@@ -659,14 +659,14 @@ entities:
     - type: Transform
       pos: 0.5,4.5
       parent: 1
-- proto: ClothingHeadHelmetScaf
+- proto: ClothingHeadHelmetBasic
   entities:
   - uid: 196
     components:
     - type: Transform
       pos: 3.752561,14.507366
       parent: 1
-- proto: ClothingOuterArmorScaf
+- proto: ClothingOuterArmorBasic
   entities:
   - uid: 195
     components:

@@ -72,9 +72,6 @@
   id: LPPDroneModuleSecurity
 
 - type: Tag
-  id: LPPBorgModuleERP
-
-- type: Tag
   id: LPPBorgModuleSci
 
 # ============================================================
@@ -82,26 +79,6 @@
 #                    [Части тела киборгов]
 #
 # ============================================================
-
-# [Части тела эротического-киборга]
-
-- type: Tag
-  id: LPPBorgEroticLArm
-
-- type: Tag
-  id: LPPBorgEroticRArm
-
-- type: Tag
-  id: LPPBorgEroticLLeg
-
-- type: Tag
-  id: LPPBorgEroticRLeg
-
-- type: Tag
-  id: LPPBorgEroticHead
-
-- type: Tag
-  id: LPPBorgEroticTorso
 
 # [Части тела киборг-безопасности]
 

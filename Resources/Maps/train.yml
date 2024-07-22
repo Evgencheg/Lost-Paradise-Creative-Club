@@ -46098,6 +46098,18 @@ entities:
     - type: Transform
       pos: 7.766112,-197.4022
       parent: 2
+- proto: DrinkTeaJug
+  entities:
+  - uid: 2213
+    components:
+    - type: Transform
+      pos: -1.5308492,-120.70999
+      parent: 2
+  - uid: 2270
+    components:
+    - type: Transform
+      pos: -1.355068,-120.780304
+      parent: 2
 - proto: DrinkTeapot
   entities:
   - uid: 2267
@@ -87140,7 +87152,7 @@ entities:
     - type: Transform
       pos: -3.5,-176.5
       parent: 2
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 5881
     components:

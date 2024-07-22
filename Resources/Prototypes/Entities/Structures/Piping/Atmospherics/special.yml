@@ -28,3 +28,46 @@
   - type: Construction
     graph: AtmosDeviceFanTiny
     node: AtmosDeviceFanTiny
+
+
+- type: construction
+  name: маленький вентелятор
+  id: AtmosDeviceFanTiny
+  graph: AtmosDeviceFanTiny
+  startNode: start
+  targetNode: AtmosDeviceFanTiny
+  category: construction-category-structures
+  description: маленький вентелятор, создающий поток воздуха
+  icon:
+    sprite: /Textures/Structures/Piping/Atmospherics/tinyfan.rsi
+    state: icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: constructionGraph
+  id: AtmosDeviceFanTiny
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: AtmosDeviceFanTiny
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - material: Plasteel
+              amount: 10
+              doAfter: 1
+
+    - node: AtmosDeviceFanTiny
+      entity: AtmosDeviceFanTiny
+      edges:
+        - to: start
+          completed:
+          - !type:SpawnPrototype
+                prototype: Plasteel
+                amount: 10

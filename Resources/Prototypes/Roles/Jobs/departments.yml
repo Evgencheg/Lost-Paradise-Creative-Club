@@ -35,7 +35,7 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
-  - Magistrate
+  # - Magistrate
   - Captain
   # - CentralCommandOfficial
   - ChiefEngineer
@@ -86,7 +86,7 @@
   - SecurityOfficer
   # - LPPBrigmedic
   # - LPPSecurityEnginer
-  - SecPilot
+  # - SecPilot
   - SecurityCadet
 
 - type: department
@@ -103,7 +103,7 @@
   description: department-Command-description
   color: "#de7e3a"
   roles:
-  - Magistrate
+  # - Magistrate
   - IAA
   - Lawyer
 
@@ -116,9 +116,9 @@
   - SeniorResearcher
   - Borg
   - Scientist
-  - Roboticist
+  # - Roboticist
   - ResearchAssistant
-  - Expeditor
+  # - Expeditor
 
 #- type: department
 #  id: Specific

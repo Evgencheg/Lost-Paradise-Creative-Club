@@ -7159,7 +7159,7 @@ entities:
     - type: Transform
       pos: -7.490233,27.640135
       parent: 1
-- proto: BookDemonomiconRandom
+- proto: BookRandomStory
   entities:
   - uid: 2907
     components:
@@ -54609,7 +54609,7 @@ entities:
     - type: Transform
       pos: -8.5,10.5
       parent: 1
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 4646
     components:

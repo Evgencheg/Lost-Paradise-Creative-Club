@@ -335,12 +335,12 @@
       - WeaponProtoKineticAccelerator
       - WeaponTetherGun
       - WeaponGrapplingGun
-      - WeaponCutter
-      - OreBagBluespace
-      - BluespacePlantBag
-      - BluespaceChemBag
-      - WeaponCutterAdv
-      - AdvWateringCan
+      # - WeaponCutter
+      # - OreBagBluespace
+      # - BluespacePlantBag
+      # - BluespaceChemBag
+      # - WeaponCutterAdv
+      # - AdvWateringCan
       - ClothingBackpackHolding
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding
@@ -353,40 +353,40 @@
       - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
-      - CanilunztTranslator
-      - BubblishTranslator
-      - NekomimeticTranslator
-      - DraconicTranslator
-      - SolCommonTranslator
-      - RootSpeakTranslator
+      # - CanilunztTranslator
+      # - BubblishTranslator
+      # - NekomimeticTranslator
+      # - DraconicTranslator
+      # - SolCommonTranslator
+      # - RootSpeakTranslator
       # - LPPXenoTranslator
       # - DraskTranslator
-      - BasicGalaticCommonTranslatorImplanter
-      - AdvancedGalaticCommonTranslatorImplanter
-      - BubblishTranslatorImplanter
-      - NekomimeticTranslatorImplanter
-      - DraconicTranslatorImplanter
-      - CanilunztTranslatorImplanter
-      - SolCommonTranslatorImplanter
-      - RootSpeakTranslatorImplanter
+      # - BasicGalaticCommonTranslatorImplanter
+      # - AdvancedGalaticCommonTranslatorImplanter
+      # - BubblishTranslatorImplanter
+      # - NekomimeticTranslatorImplanter
+      # - DraconicTranslatorImplanter
+      # - CanilunztTranslatorImplanter
+      # - SolCommonTranslatorImplanter
+      # - RootSpeakTranslatorImplanter
       # - LPPVoxissTranslator
       # - LPPVoxissTranslatorImplanter
       # - AnimalTranslator
-      - MofficTranslatorImplanter
-      - MofficTranslator
-      - SikTajTranslatorImplanter
-      - NianTranslatorImplanter
-      - FireTranslatorImplanter
+      # - MofficTranslatorImplanter
+      # - MofficTranslator
+      # - SikTajTranslatorImplanter
+      # - NianTranslatorImplanter
+      # - FireTranslatorImplanter
       # - DraskTranslatorImplanter
       # - ArkaneTranslatorImplanter
       # - ShadowkinTranslatorImplanter
-      - CintaTajTranslatorImplanter
+      # - CintaTajTranslatorImplanter
       # - ArkaneTranslator
       # - ShadowkinTranslator
-      - NianTranslator
-      - FireTranslator
-      - SikTajTranslator
-      - CintaTajTranslator
+      # - NianTranslator
+      # - FireTranslator
+      # - SikTajTranslator
+      # - CintaTajTranslator
       # - LPPIndustrialChargerCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
@@ -644,31 +644,6 @@
     - RightLegBorgService
     - HeadBorgService
     - TorsoBorgService
-    # dynamicRecipes:
-    # - LPPLeftArmBorgMining
-    # - LPPRightArmBorgMining
-    # - LPPLeftLegBorgMining
-    # - LPPRightLegBorgMining
-    # - LPPHeadBorgMining
-    # - LPPTorsoBorgMining
-    # - LPPLeftArmBorgSecurity
-    # - LPPRightArmBorgSecurity
-    # - LPPLeftLegBorgSecurity
-    # - LPPRightLegBorgSecurity
-    # - LPPHeadBorgSecurity
-    # - LPPTorsoBorgSecurity
-    # - LPPLeftArmBorgErotic
-    # - LPPRightArmBorgErotic
-    # - LPPLeftLegBorgErotic
-    # - LPPRightLegBorgErotic
-    # - LPPHeadBorgErotic
-    # - LPPTorsoBorgErotic
-    # - LPPLeftArmBorgScience
-    # - LPPRightArmBorgScience
-    # - LPPLeftLegBorgScience
-    # - LPPRightLegBorgScience
-    # - LPPHeadBorgScience
-    # - LPPTorsoBorgScience
     - ProximitySensor
     - BorgModuleMining
     - BorgModuleLightReplacer
@@ -1045,7 +1020,7 @@
     dynamicRecipes:
       # - LPPMedHud
       # - LPPMedNVG
-      - BluespaceChemBag
+      # - BluespaceChemBag
       - StasisBedMachineCircuitboard
       - TurboItemRechargerCircuitboard
       - BiomassReclaimerMachineCircuitboard
@@ -1332,10 +1307,10 @@
         - SheetPGlass30
         - SheetRPGlass30
         - SheetUranium30
-        - SheetTitanium30
-        - SheetTitaniumGlass30
-        - SheetPlastitanium30
-        - SheetPlasTitaniumGlass30
+        # - SheetTitanium30
+        # - SheetTitaniumGlass30
+        # - SheetPlastitanium30
+        # - SheetPlasTitaniumGlass30
         - IngotGold30
         - IngotSilver30
         - MaterialBananium10
@@ -1365,10 +1340,10 @@
       - SheetUranium30
       - SheetUGlass30
       - SheetRUGlass30
-      - SheetTitanium30
-      - SheetTitaniumGlass30
-      - SheetPlastitanium30
-      - SheetPlasTitaniumGlass30
+      # - SheetTitanium30
+      # - SheetTitaniumGlass30
+      # - SheetPlastitanium30
+      # - SheetPlasTitaniumGlass30
       - IngotGold30
       - IngotSilver30
       - MaterialBananium10

@@ -74505,6 +74505,15 @@ entities:
     - type: Transform
       pos: -16.5,-38.5
       parent: 2
+- proto: ChemDispenserEmpty
+  entities:
+  - uid: 9907
+    components:
+    - type: MetaData
+      name: Dr Dorf's Dispensary
+    - type: Transform
+      pos: -20.5,-29.5
+      parent: 2
 - proto: ChemistryEmptyBottle01
   entities:
   - uid: 2125
@@ -136311,7 +136320,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -44.5,-8.5
       parent: 2
-- proto: IntercomCommon
+- proto: IntercomCom
   entities:
   - uid: 5806
     components:
@@ -156470,7 +156479,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -17.5,-19.5
       parent: 2
-- proto: SpawnMobRaccoonMorticia
+- proto: SpawnMobGorillaLargo
   entities:
   - uid: 20672
     components:

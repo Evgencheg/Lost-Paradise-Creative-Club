@@ -640,7 +640,7 @@
     - JobIconZookeeper
     - JobIconVisitor
     - JobIconAdjutant
-    - JobIconMagistrate
+    # - JobIconMagistrate
     - JobIconSecPilot
     - JobIconSeniorResearcher
     - JobIconSeniorEngineer
